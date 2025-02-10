@@ -1,3 +1,39 @@
+# Telegram Auto Joiner Bot  
+
+A TypeScript bot that logs into your Telegram account, joins a specified channel, fetches similar channels, and recursively joins a customizable number of them. Saves channel info to `channels.json` for analysis.  
+
+## Setup  
+
+1. Install dependencies:  
+
+```sh
+ npm install
+ ```
+
+2. Run `generateSession.ts` to get your STRING_SESSION
+
+```sh
+npx tsx generateSession.ts
+```
+
+3.	Create a .env file:
+
+```env
+API_ID=your_api_id  
+API_HASH=your_api_hash  
+STRING_SESSION=your_session_string  
+START_CHANNEL=@your_starting_channel  
+```
+
+4.	Run the bot:
+
+```sh
+npx tsx index.ts  
+```
+
+
+
+
 ## Example .env
 
 ```env
