@@ -19,25 +19,14 @@ npx tsx generateSession.ts
 3.	Create a .env file:
 
 ```env
-API_ID=your_api_id  
-API_HASH=your_api_hash  
-STRING_SESSION=your_session_string  
-START_CHANNEL=@your_starting_channel  
+API_ID=111111111
+API_HASH=5h42nb123890jf4a7b7hh19jjk55b02r
+STRING_SESSION=1235bjenbikb2k35nj3125bk1kjqjhb12j....b4h31h
+START_CHANNEL=@channel_name
 ```
 
 4.	Run the bot:
 
 ```sh
 npx tsx index.ts  
-```
-
-
-
-
-## Example .env
-
-```env
-API_ID=111111111
-API_HASH=5h42nb123890jf4a7b7hh19jjk55b02r
-STRING_SESSION=1235bjenbikb2k35nj3125bk1kjqjhb12j....b4h31h
 ```
