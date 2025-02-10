@@ -1,0 +1,28 @@
+{
+  "name": "channel-joiner",
+  "version": "1.0.0",
+  "description": "TS script to recursively join similar channels through telegram API",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duckenclaw/channel-joiner.git"
+  },
+  "keywords": [
+    "telegram"
+  ],
+  "author": "duckenclaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duckenclaw/channel-joiner/issues"
+  },
+  "homepage": "https://github.com/duckenclaw/channel-joiner#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "fs": "^0.0.1-security",
+    "input": "^1.0.1",
+    "telegram": "^2.26.16"
+  }
+}
